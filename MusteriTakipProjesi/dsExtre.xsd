@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsExtre" targetNamespace="http://tempuri.org/dsExtre.xsd" xmlns:mstns="http://tempuri.org/dsExtre.xsd" xmlns="http://tempuri.org/dsExtre.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsExtre" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsExtre" msprop:Generator_UserDSName="dsExtre">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtExtreHeader" msprop:Generator_TableClassName="dtExtreHeaderDataTable" msprop:Generator_TableVarName="tabledtExtreHeader" msprop:Generator_RowChangedName="dtExtreHeaderRowChanged" msprop:Generator_TablePropName="dtExtreHeader" msprop:Generator_RowDeletingName="dtExtreHeaderRowDeleting" msprop:Generator_RowChangingName="dtExtreHeaderRowChanging" msprop:Generator_RowEvHandlerName="dtExtreHeaderRowChangeEventHandler" msprop:Generator_RowDeletedName="dtExtreHeaderRowDeleted" msprop:Generator_RowClassName="dtExtreHeaderRow" msprop:Generator_UserTableName="dtExtreHeader" msprop:Generator_RowEvArgName="dtExtreHeaderRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Today" msprop:Generator_ColumnVarNameInTable="columnToday" msprop:Generator_ColumnPropNameInRow="Today" msprop:Generator_ColumnPropNameInTable="TodayColumn" msprop:Generator_UserColumnName="Today" type="xs:string" minOccurs="0" />
+              <xs:element name="MID" msprop:Generator_ColumnVarNameInTable="columnMID" msprop:Generator_ColumnPropNameInRow="MID" msprop:Generator_ColumnPropNameInTable="MIDColumn" msprop:Generator_UserColumnName="MID" type="xs:string" minOccurs="0" />
+              <xs:element name="Unvan" msprop:Generator_ColumnVarNameInTable="columnUnvan" msprop:Generator_ColumnPropNameInRow="Unvan" msprop:Generator_ColumnPropNameInTable="UnvanColumn" msprop:Generator_UserColumnName="Unvan" type="xs:string" minOccurs="0" />
+              <xs:element name="Grup" msprop:Generator_ColumnVarNameInTable="columnGrup" msprop:Generator_ColumnPropNameInRow="Grup" msprop:Generator_ColumnPropNameInTable="GrupColumn" msprop:Generator_UserColumnName="Grup" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtExtreDetail" msprop:Generator_TableClassName="dtExtreDetailDataTable" msprop:Generator_TableVarName="tabledtExtreDetail" msprop:Generator_RowChangedName="dtExtreDetailRowChanged" msprop:Generator_TablePropName="dtExtreDetail" msprop:Generator_RowDeletingName="dtExtreDetailRowDeleting" msprop:Generator_RowChangingName="dtExtreDetailRowChanging" msprop:Generator_RowEvHandlerName="dtExtreDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="dtExtreDetailRowDeleted" msprop:Generator_RowClassName="dtExtreDetailRow" msprop:Generator_UserTableName="dtExtreDetail" msprop:Generator_RowEvArgName="dtExtreDetailRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tarih" msprop:Generator_ColumnVarNameInTable="columnTarih" msprop:Generator_ColumnPropNameInRow="Tarih" msprop:Generator_ColumnPropNameInTable="TarihColumn" msprop:Generator_UserColumnName="Tarih" type="xs:string" minOccurs="0" />
+              <xs:element name="IslemTuru" msprop:Generator_ColumnVarNameInTable="columnIslemTuru" msprop:Generator_ColumnPropNameInRow="IslemTuru" msprop:Generator_ColumnPropNameInTable="IslemTuruColumn" msprop:Generator_UserColumnName="IslemTuru" type="xs:string" minOccurs="0" />
+              <xs:element name="EvrakNo" msprop:Generator_ColumnVarNameInTable="columnEvrakNo" msprop:Generator_ColumnPropNameInRow="EvrakNo" msprop:Generator_ColumnPropNameInTable="EvrakNoColumn" msprop:Generator_UserColumnName="EvrakNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Aciklama" msprop:Generator_ColumnVarNameInTable="columnAciklama" msprop:Generator_ColumnPropNameInRow="Aciklama" msprop:Generator_ColumnPropNameInTable="AciklamaColumn" msprop:Generator_UserColumnName="Aciklama" type="xs:string" minOccurs="0" />
+              <xs:element name="Verilen" msprop:Generator_ColumnVarNameInTable="columnVerilen" msprop:Generator_ColumnPropNameInRow="Verilen" msprop:Generator_ColumnPropNameInTable="VerilenColumn" msprop:Generator_UserColumnName="Verilen" type="xs:string" minOccurs="0" />
+              <xs:element name="Alinan" msprop:Generator_ColumnVarNameInTable="columnAlinan" msprop:Generator_ColumnPropNameInRow="Alinan" msprop:Generator_ColumnPropNameInTable="AlinanColumn" msprop:Generator_UserColumnName="Alinan" type="xs:string" minOccurs="0" />
+              <xs:element name="Bakiye" msprop:Generator_ColumnVarNameInTable="columnBakiye" msprop:Generator_ColumnPropNameInRow="Bakiye" msprop:Generator_ColumnPropNameInTable="BakiyeColumn" msprop:Generator_UserColumnName="Bakiye" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtExtreFooter" msprop:Generator_TableClassName="dtExtreFooterDataTable" msprop:Generator_TableVarName="tabledtExtreFooter" msprop:Generator_RowChangedName="dtExtreFooterRowChanged" msprop:Generator_TablePropName="dtExtreFooter" msprop:Generator_RowDeletingName="dtExtreFooterRowDeleting" msprop:Generator_RowChangingName="dtExtreFooterRowChanging" msprop:Generator_RowEvHandlerName="dtExtreFooterRowChangeEventHandler" msprop:Generator_RowDeletedName="dtExtreFooterRowDeleted" msprop:Generator_RowClassName="dtExtreFooterRow" msprop:Generator_UserTableName="dtExtreFooter" msprop:Generator_RowEvArgName="dtExtreFooterRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TopVerilen" msprop:Generator_ColumnVarNameInTable="columnTopVerilen" msprop:Generator_ColumnPropNameInRow="TopVerilen" msprop:Generator_ColumnPropNameInTable="TopVerilenColumn" msprop:Generator_UserColumnName="TopVerilen" type="xs:string" minOccurs="0" />
+              <xs:element name="TopAlinan" msprop:Generator_ColumnVarNameInTable="columnTopAlinan" msprop:Generator_ColumnPropNameInRow="TopAlinan" msprop:Generator_ColumnPropNameInTable="TopAlinanColumn" msprop:Generator_UserColumnName="TopAlinan" type="xs:string" minOccurs="0" />
+              <xs:element name="AraToplam" msprop:Generator_ColumnVarNameInTable="columnAraToplam" msprop:Generator_ColumnPropNameInRow="AraToplam" msprop:Generator_ColumnPropNameInTable="AraToplamColumn" msprop:Generator_UserColumnName="AraToplam" type="xs:string" minOccurs="0" />
+              <xs:element name="GenelBakiye" msprop:Generator_ColumnVarNameInTable="columnGenelBakiye" msprop:Generator_ColumnPropNameInRow="GenelBakiye" msprop:Generator_ColumnPropNameInTable="GenelBakiyeColumn" msprop:Generator_UserColumnName="GenelBakiye" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

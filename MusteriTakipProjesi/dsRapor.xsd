@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="mtRapor" targetNamespace="http://tempuri.org/mtRapor.xsd" xmlns:mstns="http://tempuri.org/mtRapor.xsd" xmlns="http://tempuri.org/mtRapor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="mtRapor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="mtRapor" msprop:Generator_UserDSName="mtRapor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRaporIn" msprop:Generator_TableClassName="dtRaporInDataTable" msprop:Generator_TableVarName="tabledtRaporIn" msprop:Generator_TablePropName="dtRaporIn" msprop:Generator_RowDeletingName="dtRaporInRowDeleting" msprop:Generator_RowChangingName="dtRaporInRowChanging" msprop:Generator_RowEvHandlerName="dtRaporInRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRaporInRowDeleted" msprop:Generator_UserTableName="dtRaporIn" msprop:Generator_RowChangedName="dtRaporInRowChanged" msprop:Generator_RowEvArgName="dtRaporInRowChangeEvent" msprop:Generator_RowClassName="dtRaporInRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IslemID" msprop:Generator_ColumnVarNameInTable="columnIslemID" msprop:Generator_ColumnPropNameInRow="IslemID" msprop:Generator_ColumnPropNameInTable="IslemIDColumn" msprop:Generator_UserColumnName="IslemID" type="xs:string" minOccurs="0" />
+              <xs:element name="IslemTuru" msprop:Generator_ColumnVarNameInTable="columnIslemTuru" msprop:Generator_ColumnPropNameInRow="IslemTuru" msprop:Generator_ColumnPropNameInTable="IslemTuruColumn" msprop:Generator_UserColumnName="IslemTuru" type="xs:string" minOccurs="0" />
+              <xs:element name="Tarih" msprop:Generator_ColumnVarNameInTable="columnTarih" msprop:Generator_ColumnPropNameInRow="Tarih" msprop:Generator_ColumnPropNameInTable="TarihColumn" msprop:Generator_UserColumnName="Tarih" type="xs:string" minOccurs="0" />
+              <xs:element name="EvrakNo" msprop:Generator_ColumnVarNameInTable="columnEvrakNo" msprop:Generator_ColumnPropNameInRow="EvrakNo" msprop:Generator_ColumnPropNameInTable="EvrakNoColumn" msprop:Generator_UserColumnName="EvrakNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Aciklama" msprop:Generator_ColumnVarNameInTable="columnAciklama" msprop:Generator_ColumnPropNameInRow="Aciklama" msprop:Generator_ColumnPropNameInTable="AciklamaColumn" msprop:Generator_UserColumnName="Aciklama" type="xs:string" minOccurs="0" />
+              <xs:element name="Verilen" msprop:Generator_ColumnVarNameInTable="columnVerilen" msprop:Generator_ColumnPropNameInRow="Verilen" msprop:Generator_ColumnPropNameInTable="VerilenColumn" msprop:Generator_UserColumnName="Verilen" type="xs:string" minOccurs="0" />
+              <xs:element name="MID" msprop:Generator_ColumnVarNameInTable="columnMID" msprop:Generator_ColumnPropNameInRow="MID" msprop:Generator_ColumnPropNameInTable="MIDColumn" msprop:Generator_UserColumnName="MID" type="xs:string" minOccurs="0" />
+              <xs:element name="Alinan" msprop:Generator_ColumnVarNameInTable="columnAlinan" msprop:Generator_ColumnPropNameInRow="Alinan" msprop:Generator_ColumnPropNameInTable="AlinanColumn" msprop:Generator_UserColumnName="Alinan" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtRaporHead" msprop:Generator_TableClassName="dtRaporHeadDataTable" msprop:Generator_TableVarName="tabledtRaporHead" msprop:Generator_RowChangedName="dtRaporHeadRowChanged" msprop:Generator_TablePropName="dtRaporHead" msprop:Generator_RowDeletingName="dtRaporHeadRowDeleting" msprop:Generator_RowChangingName="dtRaporHeadRowChanging" msprop:Generator_RowEvHandlerName="dtRaporHeadRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRaporHeadRowDeleted" msprop:Generator_RowClassName="dtRaporHeadRow" msprop:Generator_UserTableName="dtRaporHead" msprop:Generator_RowEvArgName="dtRaporHeadRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Today" msprop:Generator_ColumnVarNameInTable="columnToday" msprop:Generator_ColumnPropNameInRow="Today" msprop:Generator_ColumnPropNameInTable="TodayColumn" msprop:Generator_UserColumnName="Today" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtRaporFoot" msprop:Generator_TableClassName="dtRaporFootDataTable" msprop:Generator_TableVarName="tabledtRaporFoot" msprop:Generator_RowChangedName="dtRaporFootRowChanged" msprop:Generator_TablePropName="dtRaporFoot" msprop:Generator_RowDeletingName="dtRaporFootRowDeleting" msprop:Generator_RowChangingName="dtRaporFootRowChanging" msprop:Generator_RowEvHandlerName="dtRaporFootRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRaporFootRowDeleted" msprop:Generator_RowClassName="dtRaporFootRow" msprop:Generator_UserTableName="dtRaporFoot" msprop:Generator_RowEvArgName="dtRaporFootRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TopVerilen" msprop:Generator_ColumnVarNameInTable="columnTopVerilen" msprop:Generator_ColumnPropNameInRow="TopVerilen" msprop:Generator_ColumnPropNameInTable="TopVerilenColumn" msprop:Generator_UserColumnName="TopVerilen" type="xs:string" minOccurs="0" />
+              <xs:element name="TopAlinan" msprop:Generator_ColumnVarNameInTable="columnTopAlinan" msprop:Generator_ColumnPropNameInRow="TopAlinan" msprop:Generator_ColumnPropNameInTable="TopAlinanColumn" msprop:Generator_UserColumnName="TopAlinan" type="xs:string" minOccurs="0" />
+              <xs:element name="AraToplam" msprop:Generator_ColumnVarNameInTable="columnAraToplam" msprop:Generator_ColumnPropNameInRow="AraToplam" msprop:Generator_ColumnPropNameInTable="AraToplamColumn" msprop:Generator_UserColumnName="AraToplam" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
